@@ -7,12 +7,12 @@
     body {
       margin: auto;
       font-family: Arial, Helvetica, sans-serif;
-      background-color: #ACBEA3;
+      background-color:#A3D9FF;
     }
 
     p {
       max-width: 70%;
-      text-align: left;
+      text-align: center;
       margin-left: auto;
       margin-right: auto;
     }
@@ -22,14 +22,15 @@
     }
     
     a {
-      color: #6F8AB7;
+      color: blue;
     }
 
 
     .date {
       text-align: left;
       margin-left: 5%;
-      color: gray;
+      margin-right: 5%;
+      color: 4F6D7A;
     }
 
     .leftAlign {
@@ -42,14 +43,14 @@
       text-align: left;
     }
 
-    .timeline {
+    .section-header {
       text-align: center;
       width: 95%;
       margin: auto;
-      background-color: #204E4A;
+      background-color: #084C61;
     }
 
-    .timeline h1 {
+    .section-header h1 {
       color: #f2f2f2;
       text-align: center;
     }
@@ -60,7 +61,7 @@
  
     .topnav {
       overflow: hidden;
-      background-color: #204E4A;
+      background-color: #084C61;
     }
     
     .topnav a {
@@ -78,7 +79,7 @@
     }
     
     .topnav a.active {
-      background-color: #6F8AB7;
+      background-color: #E3B505;
       color: white;
     }
 
@@ -90,18 +91,57 @@
       color: #f2f2f2;
     }
 
-    ol {
-      max-width: 70%;
-      text-align: left;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
     </style>
     </head>
 
 
 <body>
+
+
+    <div class="topnav">
+        <a href="#home">Home</a>
+        <a class="active" href="#active-projects">Active Projects</a>
+        <a href ="#project-arcive">Project Archive</a>
+        <a href="#resume-contact">Resume and Contact</a>
+        <a href="#about-site">About the Site</a>
+     </div>
+    
+    <h1>Path Finding</h1>
+
+     <p>
+     This is a very general project to approach the problem of 2D path finding. I use several different languages including C++, Lua and Gdscript and have several different programs with different functionality and varying degrees of success.
+    </p>
+     
+     <div class="section-header">
+        <h1>
+          TIMELINE
+        </h1>
+      </div>
+
+      <!--    Date Break   -->
+
+
+<div class="date">
+    <h2>
+      July 2020
+    </h2>
+  </div>
+  
+  <div class="leftAlign">
+  
+  <h3>Lua script</h3>
+
+  The main inspiration behind writing this in lua script was to be able to port it over to a game called Crayta. This script is able when given a matrix, a player position and a goal position to find the shortest rout to the goal. It handles any number of convex obstacles such as a square or circle. 
+  The basic functionality of the algorithm calculates a heat map based on the distance from all tiles to the goal. This is calculated using the coordinates of the goal and the coordinates of the tile. Then some very basic movement logic chooses the largest value of all neighboring tiles. Any obstacles are given a value of 0 and are therefore never chosen.
+
+  The problem arises when trying to handel concave shapes when the player starts inside the obstacle or the goal is inside the obstacle. This is because the heat map does not take into account back tracking. It only calculates the raw distance from the goal.<br>
+  The solution that I have begun developing is treating the open end or the "entrance" of the concave obstacle as a intermediate goal. Once this has been reached a new value matrix is calculated on the inside of the obstacle and the process is repeated.<br>
+
+
+
+  
+
+  </div>
 
 
 
