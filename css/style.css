@@ -81,9 +81,8 @@
     }
 
     .summery-box a {
-      color: black;
       text-decoration: none;
-      
+      padding: 10px 10px;
     }
 
     footer {
