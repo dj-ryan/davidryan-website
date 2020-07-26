@@ -33,13 +33,13 @@
       margin-right: 5%;;
     }
 
-    .leftAlign {
+    .left-align {
       text-align: left;
       margin-left: 10%;
       margin-right: 10%;
     }
     
-    .footerLeftAlign {
+    .footer-left-align {
       text-align: left;
     }
 
@@ -80,6 +80,6 @@
       position:relative;
       text-align: right;
       padding: 14px 16px;
-      background-color: #204E4A;
+      background-color: #457b9d;
       color: #f2f2f2;
     }
