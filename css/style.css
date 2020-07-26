@@ -81,6 +81,8 @@
     }
 
     .summery-box a {
+      color: black;
+      overflow: hidden;
       text-decoration: none;
       padding: 10px 10px;
     }
