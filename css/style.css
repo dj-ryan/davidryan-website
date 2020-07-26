@@ -78,11 +78,11 @@
 
     .summery-box {
       border: 2px solid black;
+      overflow: hidden;
     }
 
     .summery-box a {
       color: black;
-      overflow: hidden;
       text-decoration: none;
       padding: 10px 10px;
     }
