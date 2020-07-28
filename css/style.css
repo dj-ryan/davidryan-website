@@ -96,13 +96,12 @@ h1 {
   border-radius: 15px;
   margin: 20px;
   text-align: left;
-  text-indent: 20px;
+  padding: 10px;
 }
 
 .summery-box a {
   color: black;
   text-decoration: none;
-  padding: 10px 10px;
 }
 
 .summery-box:hover {
