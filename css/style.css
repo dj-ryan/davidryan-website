@@ -34,7 +34,7 @@ h1 {
   text-align: center;
   width: 95%;
   margin: auto;
-  background-color: #37c757;
+  background-color: #114e92;
 }
 
 .date {
@@ -84,15 +84,15 @@ h1 {
 }
 
 .topnav a:hover {
-  background-color: #34c1ee;
-}
-
-.topnav a.active {
   background-color: #0f8ddd;
 }
 
+.topnav a.active {
+  background-color: #34c1ee;
+}
+
 .summery-box {
-  border: 3px solid #37c757;
+  border: 3px solid #114e92;
   border-radius: 15px;
   margin: 20px;
   text-align: left;
@@ -106,7 +106,8 @@ h1 {
 }
 
 .summery-box:hover {
-  background-color: #34c1ee;
+  border-color: #0f8ddd;
+  background-color: whitesmoke;
 }
 
 footer {
@@ -114,5 +115,9 @@ footer {
   text-align: right;
   padding: 14px 14px;
   background-color: #114e92;
+  color: white;
+}
+
+footer a {
   color: white;
 }
