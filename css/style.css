@@ -92,7 +92,7 @@ h1 {
 }
 
 .summery-box {
-  border: 2px solid #114e92;
+  border: 3px solid #37c757;
   border-radius: 15px;
   margin: 20px;
   text-align: left;
@@ -106,7 +106,7 @@ h1 {
 }
 
 .summery-box:hover {
-  background-color: #0f8ddd;
+  background-color: #34c1ee;
 }
 
 footer {
