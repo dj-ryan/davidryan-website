@@ -84,12 +84,11 @@ h1 {
 }
 
 .topnav a:hover {
-  background-color: #0f8ddd;
+  background-color: #34c1ee;
 }
 
 .topnav a.active {
-  background-color: #34c1ee;
-  color: white;
+  background-color: #0f8ddd;
 }
 
 .summery-box {
