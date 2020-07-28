@@ -34,7 +34,7 @@ h1 {
   text-align: center;
   width: 95%;
   margin: auto;
-  background-color: #457b9d;
+  background-color: #37c757;
 }
 
 .date {
@@ -85,7 +85,6 @@ h1 {
 
 .topnav a:hover {
   background-color: #0f8ddd;
-  color: black;
 }
 
 .topnav a.active {
