@@ -94,20 +94,36 @@ h1 {
 .summery-box {
   border: 3px solid #114e92;
   border-radius: 15px;
-  margin: 20px;
-  text-align: left;
   padding: 10px;
-}
-
-.summery-box a {
-  color: black;
-  text-decoration: none;
+  margin: 10px;
 }
 
 .summery-box:hover {
   border-color: #0f8ddd;
   background-color: whitesmoke;
 }
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left-column {
+  width: 75%;
+}
+
+.right-column {
+  width: 25%;
+}
+
+f
 
 footer {
   position: relative;
