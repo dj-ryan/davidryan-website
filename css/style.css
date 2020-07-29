@@ -115,17 +115,6 @@ h1 {
   content: "";
   display: table;
   clear: both;
-<<<<<<< HEAD
-}
-
-.left-column {
-  width: 75%;
-}
-
-.right-column {
-  width: 25%;
-=======
->>>>>>> f106e30f9165d6dcb48716bac51d30ffc31be33c
 }
 
 .left-column {
@@ -136,7 +125,13 @@ h1 {
   width: 25%;
 }
 
-f
+.left-column {
+  width: 75%;
+}
+
+.right-column {
+  width: 25%;
+}
 
 footer {
   position: relative;
