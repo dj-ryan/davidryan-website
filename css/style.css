@@ -15,7 +15,9 @@ body {
   height: 100%;
 }
 
-p {
+
+
+.page-summery {
   max-width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -34,7 +36,7 @@ h1 {
   text-align: center;
   width: 95%;
   margin: auto;
-  background-color: #37c757;
+  background-color: #114e92;
 }
 
 .date {
@@ -84,35 +86,54 @@ h1 {
 }
 
 .topnav a:hover {
-  background-color: #34c1ee;
-}
-
-.topnav a.active {
   background-color: #0f8ddd;
 }
 
-.summery-box {
-  border: 3px solid #37c757;
-  border-radius: 15px;
-  margin: 20px;
-  text-align: left;
-  text-indent: 20px;
+.topnav a.active {
+  background-color: #34c1ee;
 }
 
-.summery-box a {
-  color: black;
-  text-decoration: none;
-  padding: 10px 10px;
+.summery-box {
+  border: 3px solid #114e92;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .summery-box:hover {
-  background-color: #34c1ee;
+  border-color: #0f8ddd;
+  background-color: whitesmoke;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left-column {
+  width: 75%;
+}
+
+.right-column {
+  width: 25%;
 }
 
 footer {
   position: relative;
   text-align: right;
-  padding: 14px 14px;
+  margin-top: 15px;
+  padding: 15px 15px;
   background-color: #114e92;
+  color: white;
+}
+
+footer a {
   color: white;
 }
