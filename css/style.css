@@ -42,11 +42,11 @@ h1 {
   margin-right: 5%;
 }
 
-.left-align {
+/* .left-align {
   text-align: left;
   margin-left: 10%;
   margin-right: 10%;
-  }
+  } */
 
 .footer-left-align {
   text-align: left;
@@ -69,6 +69,7 @@ h1 {
 }
 
 .topnav {
+  position: sticky;
   overflow: hidden;
   background-color: #114e92;
 }
@@ -80,10 +81,12 @@ h1 {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  transition-duration: 150ms;
 }
 
 .topnav a:hover {
   background-color: #0f8ddd;
+  transition-duration: 150ms;
 }
 
 .topnav a.active {
@@ -96,14 +99,18 @@ h1 {
 }
 
 .summery-box {
+  position: relative;
   border: 3px solid #114e92;
   border-radius: 15px;
   padding: 10px;
   margin: 10px;
+  transition-duration: 300ms;
 }
 
 .summery-box:hover {
-  margin: 5%;
+  transition-duration: 300ms;
+  margin-left: -5%;
+  margin-left: -5%;
   border-color: #0f8ddd;
   background-color: whitesmoke;
 }
