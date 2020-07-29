@@ -107,7 +107,6 @@ h1 {
 
 .column {
   float: left;
-  width: 50%;
 }
 
 /* Clear floats after the columns */
@@ -118,19 +117,11 @@ h1 {
 }
 
 .left-column {
-  width: 75%;
+  width: 60%;
 }
 
 .right-column {
-  width: 25%;
-}
-
-.left-column {
-  width: 75%;
-}
-
-.right-column {
-  width: 25%;
+  width: 40%;
 }
 
 footer {
