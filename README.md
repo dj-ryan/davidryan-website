@@ -1,6 +1,8 @@
 # davidryan-website
 HTML pages for [davidryan.info](davidryan.info)
 
+This repo is served directly for any request to davidryan.info
+
 
 ## About the Site
 
