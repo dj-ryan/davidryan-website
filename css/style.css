@@ -86,7 +86,7 @@ h1 {
 
 .topnav a:hover {
   background-color: #0f8ddd;
-  transition-duration: 150ms;
+  transition-duration: 100ms;
 }
 
 .topnav a.active {
@@ -104,13 +104,13 @@ h1 {
   border-radius: 15px;
   padding: 10px;
   margin: 10px;
-  transition-duration: 300ms;
+  transition-duration: 200ms;
 }
 
 .summery-box:hover {
-  transition-duration: 300ms;
-  margin-left: -5%;
-  margin-left: -5%;
+  transition-duration: 100ms;
+  margin-left: -3%;
+  margin-right: -3%;
   border-color: #0f8ddd;
   background-color: whitesmoke;
 }
