@@ -1,3 +1,3 @@
 <?php
-echo date('Y-m-d H:i:s');
-phpinfo();
+
+echo 'Hello ' . htmlspecialchars($_GET["select"]) . '!';
