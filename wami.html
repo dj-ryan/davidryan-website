@@ -32,20 +32,26 @@
 
         <script>
 
-            const queryString = window.location.search;
-            const urlParams = new URLSearchParams(queryString);
-
+            var queryString = window.location.search;
+            var urlParams = new URLSearchParams(queryString);
             var select = urlParams.get('select');
 
 
+
+            // console.log(queryString);
+            // console.log(urlParams);
+            // console.log(select);
+
+
+
             switch (select) {
-                case 0:
+                case '0':
                     document.getElementById("local").innerHTML = "In the Building!";
                     break;
-                case 1:
+                case '1':
                     document.getElementById("local").innerHTML = "On Campus!";
                     break;
-                case 2:
+                case '2':
                     document.getElementById("local").innerHTML = "On a Zoom call!";
                     break;
             }
