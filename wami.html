@@ -25,16 +25,40 @@
 <body>
     <section>
 
+        <div id="local">
+            test
+        </div>
+
+
+        <script>
+            var select = 2;
+
+            switch (select) {
+                case 0:
+                    document.getElementById("local").innerHTML = "In the Building!";
+                    break;
+                case 1:
+                    document.getElementById("local").innerHTML = "On Campus!";
+                    break;
+                case 2:
+                    document.getElementById("local").innerHTML = "On a Zoom call!";
+                    break;
+            }
+
+        </script>
+
         <!-- In the Building!<br>
 
         On campus!<br>
 
         On Zoom Call!<br> -->
 
-        At Bob Devaney<br>
+        <!-- At Bob Devaney<br> -->
 
 
-        Phone: <a href="tel:402-499-8715"> (402) 499-8715</a>
+        Phone: <a href="tel:402-499-8715">(402) 499-8715</a>
+
+
 
     </section>
 
