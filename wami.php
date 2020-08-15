@@ -1,6 +1,6 @@
 <?php
 
-$select = htmlspecialchars($_GET["select"]);
+$select = $_GET["select"];
 
 $GLOBALS['select'] = $select;
 
