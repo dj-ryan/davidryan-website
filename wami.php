@@ -1,4 +1,13 @@
-<!DOCTYPE html>
+<?php
+
+$select = htmlspecialchars($_GET["select"]);
+
+$GLOBALS['select'] = $select;
+
+?>
+
+
+
 <html>
 
 <head>
@@ -29,20 +38,19 @@
             In the Building!
         </div>
 
-
-
-
-
-
-
-
+    
+ 
 
 
         <script>
 
-            var queryString = window.location.search;
-            var urlParams = new URLSearchParams(queryString);
-            var select = urlParams.get('select');
+
+            var select = "<?php echo $select ?>";
+
+
+            // var queryString = window.location.search;
+            // var urlParams = new URLSearchParams(queryString);
+            // var select = urlParams.get('select');
 
 
 
