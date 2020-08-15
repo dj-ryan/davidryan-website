@@ -31,7 +31,12 @@
 
 
         <script>
-            var select = 2;
+
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+
+            var select = urlParams.get('select');
+
 
             switch (select) {
                 case 0:
@@ -46,14 +51,6 @@
             }
 
         </script>
-
-        <!-- In the Building!<br>
-
-        On campus!<br>
-
-        On Zoom Call!<br> -->
-
-        <!-- At Bob Devaney<br> -->
 
 
         Phone: <a href="tel:402-499-8715">(402) 499-8715</a>
