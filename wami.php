@@ -2,13 +2,12 @@
 
 $select = $_GET["select"];
 
-echo $select;
 
- if($select == 'link1') {
-    //content
-  };
+if ($select > 0) {
+    $GLOBALS['select'] = $select;
+};
 
-$GLOBALS['select'] = $select;
+
 
 ?>
 
@@ -44,14 +43,12 @@ $GLOBALS['select'] = $select;
             In the Building!
         </div>
 
-    
- 
+
+
 
 
         <script>
-
-
-            var select = "<?php echo $select ?>";
+            var select = "<?php echo $GLOBALS['select'] ?>";
 
 
             // var queryString = window.location.search;
@@ -77,7 +74,6 @@ $GLOBALS['select'] = $select;
                     document.getElementById("local").innerHTML = "On a Zoom call!";
                     break;
             }
-
         </script>
 
 
