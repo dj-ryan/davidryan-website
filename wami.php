@@ -2,6 +2,12 @@
 
 $select = $_GET["select"];
 
+echo $select;
+
+ if($select == 'link1') {
+    //content
+  };
+
 $GLOBALS['select'] = $select;
 
 ?>
