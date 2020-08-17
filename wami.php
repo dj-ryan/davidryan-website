@@ -40,7 +40,7 @@ if ($select > 0) {
     <section>
 
         <div id="local">
-            At Bob Devaney helping with move in!
+            In the building!
         </div>
 
 
