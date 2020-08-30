@@ -19,7 +19,7 @@ if ($select > 0) {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <style>
-    body {
+    body { 
         background-color: coral;
         font-family: verdana;
     }
@@ -40,7 +40,7 @@ if ($select > 0) {
     <section>
 
         <div id="local">
-            In the building!
+            Off Campus!
         </div>
 
 
