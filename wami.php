@@ -40,7 +40,7 @@ if ($select > 0) {
     <section>
 
         <div id="local">
-            Off Campus!
+            In the Building!
         </div>
 
 
