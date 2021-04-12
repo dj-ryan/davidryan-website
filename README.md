@@ -1,4 +1,7 @@
-# davidryan-website
+# This repository has been archived
+It represents an old state of davidryan.info
+
+## davidryan-website
 HTML pages for [davidryan.info](davidryan.info)
 
 This repo is served directly for any request to davidryan.info
